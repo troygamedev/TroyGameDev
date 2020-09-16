@@ -1,234 +1,242 @@
-
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;   
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html{
-    /* scroll-snap-type: block mandatory; */
-    background-color: gray;
-    color:white;
-} 
-body{
-    margin: 0;
-    height: 100%; 
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+html {
+  /* scroll-snap-type: block mandatory; */
+  background-color: #252934;
+  color: white;
+}
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
 
-.navbar{
-    width: 100%;
-    position: fixed;
-    display: flex;
-    background-color: orange;
-z-index: 1;
+.navbar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background-color: orange;
+  z-index: 1;
 }
 
-.navbar img{
-    margin: auto 4%;        
+.navbar img {
+  margin: auto 4%;
 }
 
-.navbar ul{
-    display: flex;
-    flex-direction: row; 
-    align-items: center;
-    justify-content: center;    
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-
-
-
-.navbar li{    
-    list-style: none;
-    margin: auto;
+.navbar li {
+  list-style: none;
+  margin: auto;
 }
 
-.navanchors{
-    margin: auto;
-    padding: auto;
-    width: 80%;
+.navanchors {
+  margin: auto;
+  padding: auto;
+  width: 80%;
 }
 
 .navbar ul li a {
-    color:white;
-    font-weight: bolder;
-    font-size: 2.5vh;
-    width: 1%;
+  color: white;
+  font-weight: bolder;
+  font-size: 2.5vh;
+  width: 1%;
 }
 
-.cubeinc{    
-    background-image: url("cubeIncWide.PNG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+.cubeinc {
+  background-image: url("cubeIncWide.PNG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.cashout{
-
-    background-image: url("cashOutSkyView.PNG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;   
+.cashout {
+  background-image: url("cashOutSkyView.PNG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.tapdefender{
-
-    background-image: url("TapDefenderBanner.PNG");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;   
+.tapdefender {
+  background-image: url("TapDefenderBanner.PNG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.colorjump{
-    background-image: url("colorjumpwide.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;   
+.colorjump {
+  background-image: url("colorjumpwide.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.rhymetime{
-    background-image: url("rhymetimebanner.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;   
+.rhymetime {
+  background-image: url("rhymetimebanner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.spacespin{
-    background-image: url("spacespin.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;   
+.spacespin {
+  background-image: url("spacespin.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.gametext{    
-    padding: 500px 0 40px 0;
+.game {
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 20px;
+  height: 500px;
 }
 
-.gametitle{
-    font-size: 4rem;
-    font-weight: bolder;
+.gametext {
+  position: relative;
+  bottom: -200px;
 }
 
-.gamedescription{
-    
-    font-size: 2rem;
-    font-weight: lighter;
-    padding: 0 20px;
+.gametitle {
+  font-size: 4rem;
+  text-shadow: black 0px 0px 2px, black 0px 0px 2px, black 0px 0px 2px,
+    black 0px 0px 2px;
+  font-weight: bolder;
+}
+
+.gamedescription {
+  font-size: 2rem;
+  font-weight: lighter;
+  padding: 0 20px;
 }
 
 .gamedescription a {
-    font-weight: bold;
-    color: gold;
+  font-weight: bold;
+  color: gold;
 }
 
 .gamedescription a img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
-a{
-    text-decoration: none;    
+a {
+  text-decoration: none;
 }
 
-a:hover{
-    text-decoration: underline;
+a:hover {
+  text-decoration: underline;
 }
 
-footer{
-    margin: 20px 0;
-    padding: 0 20px;
+footer {
+  margin: 20px 0;
+  padding: 0 20px;
 }
 
-
-
-
-.bio{
-    background-color: rgb(0, 149, 218);
-    padding: 50px;
-    padding-top: 300px;
+.bio {
+  padding: 50px;
 }
 
-.name{
-    font-size: 5rem;
+.name {
+  font-size: 5rem;
 }
 
-.shortbio{
-    font-weight: lighter;
-    font-size: 1.5rem;
+.shortbio {
+  font-weight: lighter;
+  font-size: 1.5rem;
 }
 
 .shortbio ul {
-    margin: 20px 0;
-    padding-left: 35%;
-    text-align: left;
-    display: block;
+  margin: 20px 0;
+  padding-left: 35%;
+  text-align: left;
+  display: block;
 }
 
-.shortbio ul li{       
-    list-style-position: outside;
-    font-size: 1.25rem;
-    word-wrap: break-word;
+.shortbio ul li {
+  list-style-position: outside;
+  font-size: 1.25rem;
+  word-wrap: break-word;
 }
 
-.longbio{
-    font-style: italic;
-    font-size: 2rem;
-    margin: 150px 0 ;
+.longbio {
+  font-style: italic;
+  font-size: 2rem;
+  margin: 150px 0;
 }
 
-.longbio strong{
-    font-family: Snell Roundhand;
-    font-size: 2rem;
+.longbio strong {
+  font-family: Snell Roundhand;
+  font-size: 2rem;
 }
 
-.separator{
-    margin: 100px 14% 0 14%;
-    border: 1px solid wheat;
+.separator {
+  margin: 100px 14% 0 14%;
+  border: 1px solid wheat;
 }
 
-.intro{
-    z-index: -1;
-    position: relative;    
-    padding: 80px 5px 0 5px;
+.intro {
+  z-index: -1;
+  position: relative;
+  padding: 80px 5px 15px 5px;
+  background-color: #3b404e;
 }
 
-.mail{
-    color: white;
+.mail {
+  color: white;
 }
 
-.intro strong{
-    font-size: larger;
-    text-decoration: underline;
+.intro strong {
+  font-size: larger;
+  text-decoration: underline;
 }
 
-.webgl-content{
-    margin: auto;
-    margin-top: 100px;
+.webgl-content {
+  margin: auto;
+  margin-top: 100px;
+}
+
+#contactLinks {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+    padding: 0;
+  }
+  .bio {
+    scroll-snap-align: center;
+  }
 
-    .navbar ul {
-        flex-direction: column;
-        padding: 0;        
-    }    
-    .bio {
-        scroll-snap-align: center;
-    }
+  .shortbio ul {
+    padding-left: 10vw;
+  }
 
-    .shortbio ul{    
-        padding-left: 10vw;
-    }
+  .intro {
+    scroll-snap-align: center;
+    padding-top: 100px;
+  }
 
-    .intro {
-        scroll-snap-align: center;
-        padding-top: 100px;
-    }
+  .gametext {
+    scroll-snap-align: end;
+  }
 
-    .gametext{
-        scroll-snap-align: end;
-    }
-    
-    .footer {
-        scroll-snap-align: center;
-    }
+  .footer {
+    scroll-snap-align: center;
+  }
+
+  #contactLinks {
+    flex-direction: column;
+  }
 }
