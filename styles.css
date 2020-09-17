@@ -134,8 +134,9 @@ a:hover {
 }
 
 footer {
-  margin: 20px 0;
-  padding: 0 20px;
+  margin: 20px 0 0 0;
+  padding: 20px;
+  background-color: #23262f;
 }
 
 .bio {
@@ -210,13 +211,14 @@ footer {
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 600px) {
+.mail img {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
   .navbar ul {
     flex-direction: column;
     padding: 0;
-  }
-  .bio {
-    scroll-snap-align: center;
   }
 
   .shortbio ul {
@@ -224,19 +226,21 @@ footer {
   }
 
   .intro {
-    scroll-snap-align: center;
     padding-top: 100px;
   }
 
-  .gametext {
-    scroll-snap-align: end;
+  .game {
+    width: 95%;
   }
 
-  .footer {
-    scroll-snap-align: center;
+  .gametext {
+    bottom: -100px;
   }
 
   #contactLinks {
     flex-direction: column;
+  }
+  .mail {
+    margin-bottom: 100px;
   }
 }
