@@ -20,6 +20,7 @@ body {
   display: flex;
   background-color: orange;
   z-index: 1;
+  top: 0;
 }
 
 .navbar img {
@@ -198,6 +199,7 @@ footer {
 }
 
 .webgl-content {
+  width: fit-content;
   margin: auto;
   margin-top: 100px;
 }
@@ -213,6 +215,13 @@ footer {
 
 .mail img {
   margin-top: 20px;
+}
+
+ol {
+  margin: auto;
+  width: 50%;
+  text-align: left;
+  list-style: decimal outside;
 }
 
 @media screen and (max-width: 800px) {

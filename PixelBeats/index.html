@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Pixel Beats</title>
+    <link rel='stylesheet' href='../styles.css'>        
+    <link rel='icon' href='../gamedevfav96.png' type='image/png'>    
+
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Builds.json");
+    </script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navanchors">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Meet the Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="howTo">
+      <br>
+      <br>
+      <br>
+      <h2>IMPORTANT</h2>
+      <p>When importing pixel art and music, click the blank space like on this text so that it prompts your web browser to open your file explorer.</p>
+      <h2>Steps</h2>
+      <ol>
+        <li>Import music: <strong>MUST BE .ogg file</strong>, you can convert it online.</li>
+        <li>Import pixel art: MUST BE .png FILE AND MUST BE 16x16 pixels; please size it down to 16x16 pixels or else it won't work.</li>
+        <li>Enter BPM: Use <a target="_blank" href = "http://www.beatsperminuteonline.com/" style="color: purple">this</a> to find the BPM of the song; must enter BPM or the editor will break</li>
+        <li>Left click to add a note, right click to remove. Use the undo/redo buttons to revert changes.</li>
+        <li>To add pauses or silent notes, just click anywhere outside the 16x16 frame and it will treat it as a skipped note.</li>
+        <li>Use the Preview button to simulate the current beatmap</li>
+        <li>Use the export button and it will copy the beatmap information onto your clipboard; paste it to the discord to share it for others to import.</li>
+      </ol>
+    </div>
+    <a target="_blank" href = "http://www.beatsperminuteonline.com/" style="color: purple"><h2>Tutorial</h2></a>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 90vw; height: 80vh"></div>      
+    </div>
+    <br>
+  </body>
+</html>
