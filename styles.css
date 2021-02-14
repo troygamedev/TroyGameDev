@@ -99,6 +99,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.triviadash {
+  background-image: url("triviadashbanner.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .game {
   width: 80%;
   margin: 20px auto;

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Trivia Dash</title>
+    <link rel='stylesheet' href='../styles.css'>        
+    <link rel='icon' href='../gamedevfav96.png' type='image/png'>    
+
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Builds.json");
+    </script>
+  </head>
+  <body>
+    <div class = "navbar">
+      <div class = "navanchors">
+          <ul>
+              <li><a href = "../index.html">Home</a></li>
+              <li><a href = "../about.html">Meet the Team</a></li>
+              <li><a href = "../contact.html">Contact</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="howTo"><br><br><br>           
+      <h2><a style ="color: gold;" href ="https://github.com/troygamedev/trivia-game-data">Contribute to questions here (club members)</a></h2>
+      <h2>Jump over the obstacles with Space</h2>              
+      <h2>Every incorrect answer increases difficulty</h2>
+      <h2>Every correct answer earns 1/5 heart</h2>
+    </div>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 80vw; height: 45vw"></div>      
+    </div>
+  </body>
+</html>
