@@ -99,9 +99,10 @@ body {
   background-repeat: no-repeat;
 }
 
-.triviadash {
-  background-image: url("triviadashbanner.svg");
-  background-size: cover;
+.bet {
+  background-image: url("bet-you-dont-know-logo.png");
+  background-size: 10%;
+  background-color: #181818;
   background-position: center;
   background-repeat: no-repeat;
 }
